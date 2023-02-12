@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="favi" />
+    <title>To Love</title>
+    <style>
+      @font-face {
+        font-family: 'Caveat';
+        src: url('./public/fonts/Caveat-VariableFont_wght.ttf');
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      :root {
+        font-size: 16px;
+        color: white;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 80%);
+      }
+
+      header,
+      main,
+      footer {
+        width: 100vw;
+        text-align: center;
+      }
+
+      header {
+        height: 12vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1vh 6vw;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+
+      .love-text {
+        margin-top: 2vh;
+        font-family: Caveat;
+        font-size: 2rem;
+        color: rgb(250 128 114);
+      }
+
+      .icon-love {
+        width: 1.5rem;
+        height: 1.5rem;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+      }
+
+      .icon-music {
+        width: 1.2rem;
+        height: 1.2rem;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+      }
+
+      .profile {
+        display: flex;
+        width: 100vw;
+        height: 20vh;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .icon-baiyangzuo,
+      .icon-shizizuo {
+        width: 6rem;
+        height: 6rem;
+        fill: currentColor;
+        overflow: hidden;
+      }
+
+      .icon-LOVEx {
+        width: 3rem;
+        height: 3rem;
+        fill: currentColor;
+        overflow: hidden;
+      }
+
+      .love-tree {
+        margin: auto;
+      }
+    </style>
+    <script src="./public/icon/iconfont.js"></script>
+  </head>
+  <body>
+    <header>
+      <h2>
+        Love Forever
+        <svg class="icon-love" aria-hidden="true">
+          <use xlink:href="#icon-valentine_-hearts-love-affection-like"></use>
+        </svg>
+      </h2>
+      <svg class="icon-music" aria-hidden="true">
+        <use xlink:href="#icon-music1"></use>
+      </svg>
+    </header>
+
+    <main>
+      <div class="love-text">with you</div>
+      <div class="profile">
+        <svg class="icon-baiyangzuo" aria-hidden="true">
+          <use xlink:href="#icon-baiyangzuo"></use>
+        </svg>
+        <svg class="icon-LOVEx" aria-hidden="true">
+          <use xlink:href="#icon-LOVEx"></use>
+        </svg>
+        <svg class="icon-shizizuo" aria-hidden="true">
+          <use xlink:href="#icon-shizizuo"></use>
+        </svg>
+      </div>
+
+      <div class="love-tree">
+        <img class="sakura" src="./public/imgs/sakura.jpg" />
+      </div>
+      <div class="love-text">forever and ever</div>
+    </main>
+
+    <audio src="./public/audio/toki.mp3" autoplay="autoplay" loop></audio>
+
+    <script></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3880805 */
+  src: url('iconfont.woff2?t=1675587668044') format('woff2'),
+       url('iconfont.woff?t=1675587668044') format('woff'),
+       url('iconfont.ttf?t=1675587668044') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-music1:before {
+  content: "\e6fa";
+}
+
+.icon-music-:before {
+  content: "\e6fb";
+}
+
+.icon-valentine_-hearts-love-affection-like3:before {
+  content: "\e764";
+}
+
+.icon-valentine_-stamp-postcard-love-heart:before {
+  content: "\e766";
+}
+
+.icon-music4:before {
+  content: "\ec66";
+}
+
+.icon-valentine_-hearts-love-affection-like:before {
+  content: "\e762";
+}
+
+.icon-valentine_-hearts-love-affection-like1:before {
+  content: "\e765";
+}
+
+.icon-fjdd_icon_love_sel:before {
+  content: "\e603";
+}
+
+.icon-baiyangzuo:before {
+  content: "\e63d";
+}
+
+.icon-shizizuo:before {
+  content: "\e63e";
+}
+
+.icon-LOVEx:before {
+  content: "\e62d";
+}
+

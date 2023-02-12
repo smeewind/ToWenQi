@@ -1,0 +1,86 @@
+{
+  "id": "3880805",
+  "name": "ToLove",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4472417",
+      "name": "music",
+      "font_class": "music1",
+      "unicode": "e6fa",
+      "unicode_decimal": 59130
+    },
+    {
+      "icon_id": "4472418",
+      "name": "music-1",
+      "font_class": "music-",
+      "unicode": "e6fb",
+      "unicode_decimal": 59131
+    },
+    {
+      "icon_id": "10566453",
+      "name": "valentine_014-hearts-love-affection-like",
+      "font_class": "valentine_-hearts-love-affection-like3",
+      "unicode": "e764",
+      "unicode_decimal": 59236
+    },
+    {
+      "icon_id": "10566456",
+      "name": "valentine_010-stamp-postcard-love-heart",
+      "font_class": "valentine_-stamp-postcard-love-heart",
+      "unicode": "e766",
+      "unicode_decimal": 59238
+    },
+    {
+      "icon_id": "12194760",
+      "name": "music",
+      "font_class": "music4",
+      "unicode": "ec66",
+      "unicode_decimal": 60518
+    },
+    {
+      "icon_id": "10566448",
+      "name": "valentine_011-hearts-love-affection-like",
+      "font_class": "valentine_-hearts-love-affection-like",
+      "unicode": "e762",
+      "unicode_decimal": 59234
+    },
+    {
+      "icon_id": "10566458",
+      "name": "valentine_013-hearts-love-affection-like",
+      "font_class": "valentine_-hearts-love-affection-like1",
+      "unicode": "e765",
+      "unicode_decimal": 59237
+    },
+    {
+      "icon_id": "18490039",
+      "name": "fjdd_icon_love_sel",
+      "font_class": "fjdd_icon_love_sel",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "26529469",
+      "name": "白羊座",
+      "font_class": "baiyangzuo",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "26529470",
+      "name": "狮子座",
+      "font_class": "shizizuo",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "12971934",
+      "name": "LOVE@1x",
+      "font_class": "LOVEx",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    }
+  ]
+}
