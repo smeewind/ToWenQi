@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="favi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+    maximum-scale=1.0, user-scalable=0” />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
     <title>To Love</title>
     <style>
       @font-face {
@@ -19,8 +20,8 @@
       :root {
         font-size: 16px;
         color: white;
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
         margin: 0;
         padding: 0;
         background-color: rgba(0, 0, 0, 80%);
@@ -59,6 +60,16 @@
         vertical-align: -0.15em;
         fill: currentColor;
         overflow: hidden;
+      }
+
+      #music-btn {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        text-align: center;
+        padding: auto;
+        background-color: transparent;
+        border: 1px solid skyblue;
       }
 
       .icon-music {
@@ -107,9 +118,11 @@
           <use xlink:href="#icon-valentine_-hearts-love-affection-like"></use>
         </svg>
       </h2>
-      <svg class="icon-music" aria-hidden="true">
-        <use xlink:href="#icon-music1"></use>
-      </svg>
+      <button id="music-btn">
+        <svg class="icon-music" aria-hidden="true">
+          <use id="icon-music" xlink:href="#icon-music-"></use>
+        </svg>
+      </button>
     </header>
 
     <main>
@@ -127,13 +140,34 @@
       </div>
 
       <div class="love-tree">
-        <img class="sakura" src="./public/imgs/sakura.jpg" />
+        <img src="./public/imgs/sakura.jpg" />
       </div>
       <div class="love-text">forever and ever</div>
     </main>
 
-    <audio src="./public/audio/toki.mp3" autoplay="autoplay" loop></audio>
+    <audio
+      id="audio-play"
+      src="./public/audio/toki.mp3"
+      loop
+      preload="none"
+    ></audio>
 
-    <script></script>
+    <script>
+      var musicBtn = document.getElementById('music-btn')
+      var audioPlay = document.getElementById('audio-play')
+      var iconMusic = document.getElementById('icon-music')
+      var musicPlaying = false
+      musicBtn.addEventListener('click', () => {
+        if (musicPlaying) {
+          iconMusic.setAttribute('xlink:href', '#icon-music1')
+          audioPlay.play()
+        } else {
+          iconMusic.setAttribute('xlink:href', '#icon-music-')
+          audioPlay.pause()
+        }
+        musicPlaying = !musicPlaying
+      })
+      musicBtn.click()
+    </script>
   </body>
 </html>
